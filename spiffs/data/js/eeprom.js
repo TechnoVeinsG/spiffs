@@ -10,7 +10,7 @@ $(document).ready(function(){
                   }
                 }
               },
-    error:    function (XMLHttpRequest, textStatus, errorThrown) {
+    error:    function (xhRequest, textStatus, errorThrown) {
                 alert(textStatus + " : " + errorThrown);
               }
   });
